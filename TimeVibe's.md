@@ -112,7 +112,7 @@ Entity Relationship Diagrams
 
 ## 6. Desain User Experience dan User Interface
 
-(https://www.figma.com/file/0u8Ft1HOMaJ8rXrq408M9J/TimeVibe's?type=design&node-id=0%3A1&mode=design&t=BpLF4HMLO905JQOv-1)
+![Contoh](https://www.figma.com/file/0u8Ft1HOMaJ8rXrq408M9J/TimeVibe's?type=design&node-id=0%3A1&mode=design&t=BpLF4HMLO905JQOv-1)
 
 ## 7. Demonstrasi Video
 
