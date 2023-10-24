@@ -66,16 +66,35 @@ User Experience theme:
 
 ## 3. Struktur Data
 
----
+Entity Relationship Diagrams
 
-title: TimeVibe's Entity Relationship Diagrams
-
----
-
+```mermaid
     erDiagram
-        USER ||--o{ MOOD : choose
-        MOOD ||--|{ FORM-ACTIVITY : contains
-        FORM-ACTIVITY ||--|{ ACTIVITY : create
+        USER ||--o{ MOOD : Choose
+        USER {
+        int user_id
+        varchar username
+        varchar email
+        varchar password
+
+        }
+        MOOD ||--|{ ACTIVITY : contains
+        MOOD {
+            int mood_id
+            int user_id
+            varchar nama_mood
+            varchar deskripsi_mood
+        }
+        ACTIVITY {
+            int activity_id
+            int user_id
+            int mood_id
+            varchar nama_activity
+            varchar deskripsi_activity
+            date estimasi_waktu
+            int korelasi_mood
+        }
+```
 
 ## 4. Arsitektur Sistem
 
@@ -109,3 +128,7 @@ Link youtube nya di detik jawaban ini
 ## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
 
 Link youtube nya di detik jawaban ini
+
+```
+
+```
