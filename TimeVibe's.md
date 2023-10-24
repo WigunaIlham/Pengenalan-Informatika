@@ -72,31 +72,31 @@ title: TimeVibe's Entity Relationship Diagrams
 
 ---
 
-erDiagram
-USER ||--o{ MOOD : Choose
-USER {
-int user_id
-varchar username
-varchar email
-varchar password
+    erDiagram
+        USER ||--o{ MOOD : Choose
+        USER {
+        int user_id
+        varchar username
+        varchar email
+        varchar password
 
-    }
-    MOOD ||--|{ ACTIVITY : contains
-    MOOD {
-        int mood_id
-        int user_id
-        varchar nama_mood
-        varchar deskripsi_mood
-    }
-    ACTIVITY {
-        int activity_id
-        int user_id
-        int mood_id
-        varchar nama_activity
-        varchar deskripsi_activity
-        date estimasi_waktu
-        int korelasi_mood
-    }
+        }
+        MOOD ||--|{ ACTIVITY : contains
+        MOOD {
+            int mood_id
+            int user_id
+            varchar nama_mood
+            varchar deskripsi_mood
+        }
+        ACTIVITY {
+            int activity_id
+            int user_id
+            int mood_id
+            varchar nama_activity
+            varchar deskripsi_activity
+            date estimasi_waktu
+            int korelasi_mood
+        }
 
 ## 4. Arsitektur Sistem
 
