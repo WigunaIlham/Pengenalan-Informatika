@@ -66,8 +66,6 @@ User Experience theme:
 
 ## 3. Struktur Data
 
-FORM-ACTIVITY ||--|{ ACTIVITY : create
-
 ---
 
 title: TimeVibe's Entity Relationship Diagrams
