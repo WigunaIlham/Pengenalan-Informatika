@@ -58,7 +58,6 @@ User Experience theme:
 | pengguna | melihat halaman beranda dengan daftar mood saat ini              | saya dapat memilih mood saya.                                    | ⭐⭐⭐⭐   |
 | pengguna | melihat daftar aktivitas yang sudah saya rencanakan              | saya dapat melacak kemajuan saya.                                | ⭐⭐⭐     |
 | pengguna | mengedit atau menghapus aktivitas yang sudah saya rencanakan     | saya dapat mengatur kembali aktivitas                            | ⭐⭐⭐⭐   |
-| pengguna | memiliki tampilan kalender                                       | saya dapat melihat jadwal dari waktu ke waktu                    | ⭐⭐⭐⭐   |
 | pengguna | melihat deskripsi lengkap untuk setiap mood                      | saya dapat memahami dan memilih mood yang sesuai                 | ⭐⭐⭐     |
 | pengguna | membuat daftar aktivitas                                         | saya dapat merencanakan aktivitas sesuai mood.                   | ⭐⭐⭐⭐⭐ |
 | pengguna | memilih tingkat korelasi antara aktivitas dan mood saya saat ini | saya dapat menyesuaikan aktivitas yang lebih sesuai dengan mood. | ⭐⭐⭐⭐⭐ |
@@ -81,17 +80,14 @@ Entity Relationship Diagrams
         MOOD ||--|{ ACTIVITY : contains
         MOOD {
             int mood_id
-            int user_id
             varchar nama_mood
             varchar deskripsi_mood
         }
         ACTIVITY {
             int activity_id
-            int user_id
-            int mood_id
             varchar nama_activity
             varchar deskripsi_activity
-            date estimasi_waktu
+            varchar kategori_mood
             int korelasi_mood
         }
 ```
@@ -116,7 +112,7 @@ Entity Relationship Diagrams
 
 ## 6. Desain User Experience dan User Interface
 
-[https://www.figma.com/file/0u8Ft1HOMaJ8rXrq408M9J/TimeVibe's?type=design&node-id=0%3A1&mode=design&t=BpLF4HMLO905JQOv-1)
+(https://www.figma.com/file/0u8Ft1HOMaJ8rXrq408M9J/TimeVibe's?type=design&node-id=0%3A1&mode=design&t=BpLF4HMLO905JQOv-1)
 
 ## 7. Demonstrasi Video
 
