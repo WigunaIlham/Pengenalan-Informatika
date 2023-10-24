@@ -12,9 +12,9 @@ Kebutuhan akan Manajemen Waktu yang Lebih Kontekstual: Banyak aplikasi manajemen
 
 Dengan "TimeVibe's," Anda dapat:
 
-1.Masukkan Mood: Ketika Anda membuka aplikasi, Anda dapat dengan mudah memasukkan perasaan atau mood Anda saat ini. Apakah Anda merasa senang, sedih, bahkan bosan, "TimeVibe's" akan memperhitungkan mood Anda.
-2.Masukkan tingkat korelasi: Ketika sejauh mana aktivitas tertentu berkaitan dengan atau relevan dengan mood atau perasaan yang dimasukkan oleh anda.
-3.Meningkatkan Produktivitas: Dengan memperhatikan mood Anda, Anda dapat merencanakan hari Anda dengan lebih bijak. Ini membantu Anda mengatasi tugas dengan lebih efisien dan merasa lebih seimbang dalam hidup Anda.
+1. Masukkan Mood: Ketika Anda membuka aplikasi, Anda dapat dengan mudah memasukkan perasaan atau mood Anda saat ini. Apakah Anda merasa senang, sedih, bahkan bosan, "TimeVibe's" akan memperhitungkan mood Anda.
+2. Masukkan tingkat korelasi: Ketika sejauh mana aktivitas tertentu berkaitan dengan atau relevan dengan mood atau perasaan yang dimasukkan oleh anda.
+3. Meningkatkan Produktivitas: Dengan memperhatikan mood Anda, Anda dapat merencanakan hari Anda dengan lebih bijak. Ini membantu Anda mengatasi tugas dengan lebih efisien dan merasa lebih seimbang dalam hidup Anda.
 
 ## 1.3. Branding
 
@@ -66,17 +66,6 @@ User Experience theme:
 
 ## 3. Struktur Data
 
----
-
-title: TimeVibe's Entity Relationship Diagrams
-
----
-
-erDiagram
-USER ||--o{ SIGN-UP : Do
-USER ||--o{ SIGN-IN : Do
-USER ||--o{ MOOD : Choose
-MOOD ||--|{ FORM-ACTIVITY : contains
 FORM-ACTIVITY ||--|{ ACTIVITY : create
 
 ---
