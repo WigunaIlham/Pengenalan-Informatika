@@ -100,7 +100,7 @@ Entity Relationship Diagrams
 
 ```mermaid
     flowchart TD
-        ubgraph ide1 [Cloud]
+        subgraph ide1 [Cloud]
         id1[(Database: MySQL)] <--> id2(Aplikasi Web Backend: PHP)
         id2(Aplikasi Web Backend: PHP) <--> id3(Web Server: Apache HTTP Server)
         end
