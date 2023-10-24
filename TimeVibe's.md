@@ -109,12 +109,14 @@ Entity Relationship Diagrams
 
 ## 5. Teknologi, Library, dan Framework
 
-bla bla bla
+- Bahasa Pemrograman: HTML, CSS, JavaScript, dan PHP.
+- Framework (Frontend): Bootstrap 5 untuk tata letak dan komponen UI.
+- Basis Data: MySQL untuk penyimpanan data.
+- Server Web: Apache untuk hosting aplikasi web Anda.
 
 ## 6. Desain User Experience dan User Interface
 
-Bisa load image
-![Contoh](https://fastly.picsum.photos/id/318/536/354.jpg?hmac=Ixy-wle80nudIR_cmnF1iY2y6rMUH7_9sk-BP1fTpM8)
+https://www.figma.com/file/0u8Ft1HOMaJ8rXrq408M9J/TimeVibe's?type=design&node-id=0%3A1&mode=design&t=BpLF4HMLO905JQOv-1
 
 ## 7. Demonstrasi Video
 
