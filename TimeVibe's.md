@@ -98,7 +98,12 @@ Entity Relationship Diagrams
 
 ## 4. Arsitektur Sistem
 
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
+flowchart TD
+subgraph ide1 [Cloud]
+id1[(Database: MySQL)] <--> id2(Aplikasi Web Backend: PHP)
+id2(Aplikasi Web Backend: PHP) <--> id3(Web Server: Apache HTTP Server)
+end
+id3(Web Server: Apache HTTP Server) <--> id4(Aplikasi Web: HTML, CSS-Bootstrap, JavaScript)
 
 ## 5. Teknologi, Library, dan Framework
 
