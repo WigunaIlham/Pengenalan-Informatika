@@ -234,7 +234,7 @@ Entity Relationship Diagrams
 
 https://www.figma.com/file/0u8Ft1HOMaJ8rXrq408M9J/TimeVibe's?type=design&node-id=0%3A1&mode=design&t=BpLF4HMLO905JQOv-1
 
-![Contoh](C:\Users\ilham\OneDrive\Documents\LandingPage.png)
+![Contoh](https://www.canva.com/folder/uploads#)
 
 ## 7. Demonstrasi Video
 
