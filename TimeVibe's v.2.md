@@ -397,14 +397,14 @@ Entity Relationship Diagrams
        varchar Password
        date RegistrationDate
     }
-    user ||--o{ Activity : Creates
+    User ||--o{ Activity : Creates
         Activity {
         int ID
         varchar Name
         text Description
         datetime ScheduledTime
     }
-    User ||--o{ mood : Experiences
+    User ||--o{ Mood : Experiences
         Mood {
         int ID
         varchar Name
