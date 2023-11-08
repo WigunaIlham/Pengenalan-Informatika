@@ -391,7 +391,7 @@ Entity Relationship Diagrams
 ```mermaid
    erDiagram
     User {
-       int ID
+       int ID_User
        varchar Name
        varchar Email
        varchar Password
@@ -399,128 +399,128 @@ Entity Relationship Diagrams
     }
     User ||--o{ Activity : Creates
         Activity {
-        int ID
+        int ID_Activity
         varchar Name
         text Description
         datetime ScheduledTime
     }
     User ||--o{ Mood : Experiences
         Mood {
-        int ID
+        int ID_Mood
         varchar Name
     }
     User ||--o{ NotificationPreference : Sets
         NotificationPreference {
-        int ID
+        int ID_NotificationPreference
         datetime Time
         varchar Method
     }
     Activity ||--o{ Mood : Has
         Mood {
-        int ID
+        int ID_Mood
     }
     User ||--o{ Profile : Manages
         Profile {
-        int ID
+        int ID_Profile
         varchar Gender
         date BirthDate
         text Location
     }
     User ||--o{ Feedback : Provides
         Feedback {
-        int ID
+        int ID_Feedback
         text Text
         datetime Timestamp
     }
     Activity ||--o{ Notification : Generates
         Notification {
-        int ID
+        int ID_Notification
         text Content
         datetime Timestamp
     }
     User ||--o{ UserReview : Writes
         UserReview {
-        int ID
+        int ID_UserReview
         text Text
         float Rating
     }
     Activity ||--o{ ActivityReview : Receives
         ActivityReview {
-        int ID
+        int ID_ActivityReview
         text Text
         float Rating
     }
     Activity ||--o{ ActivityRecommendation : Generates
         ActivityRecommendation {
-        int ID
+        int ID_ActivityRecommendation
         text Content
     }
     Mood ||--o{ MoodStat : IsUsedIn
         MoodStat {
-        int ID
+        int ID_MoodStat
         int Value
         datetime Timestamp
     }
     Mood ||--o{ ActivityRecommendation : SuitsMood
         ActivityRecommendation {
-        int ID
+        int ID_ActivityRecommendation
     }
     User ||--o{ Admin : Manages
         Admin {
-        int ID
+        int ID_Admin
         varchar Role
     }
     Admin ||--o{ AppConfiguration : Configures
         AppConfiguration {
-        int ID
+        int ID_AppConfiguration
         varchar Setting
         text Value
     }
     User ||--o{ UserSetting : Configures
         UserSetting {
-        int ID
+        int ID_UserSetting
         string Setting
         text Value
     }
     User ||--o{ ColorTheme : Uses
         ColorTheme {
-        int ID
+        int ID_ColorTheme
         varchar Name
         varchar HexCode
     }
     User ||--o{ UserNotification : Receives
         UserNotification {
-        int ID
+        int ID_UserNotification
         text Content
         datetime Timestamp
     }
     User ||--o{ UserActivityHistory : Views
         UserActivityHistory {
-        int ID
+        int ID_UserActivityHistory
         int ActivityID
         datetime ViewedTimestamp
     }
     User ||--o{ UserActivityStat : Views
         UserActivityStat {
-        int ID
+        int ID_UserActivityStat
         int ActivityID
         float Rating
         datetime Timestamp
     }
     User ||--o{ UserActivityRating : Rates
         UserActivityRating {
-        int ID
+        int ID_UserActivityRating
         int ActivityID
         float Rating
         datetime Timestamp
     }
     Activity ||--o{ UserActivityRating : IsRated
         UserActivityRating {
-        int ID
+        int ID_UserActivityRating
     }
     User ||--o{ UserActivityRecommendation : Receives
         UserActivityRecommendation {
-        int ID
+        int ID_UserActivityRecommendation
         int ActivityID
         text Content
     }
