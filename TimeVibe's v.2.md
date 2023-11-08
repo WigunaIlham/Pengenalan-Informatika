@@ -398,7 +398,7 @@ Entity Relationship Diagrams
        date RegistrationDate
     }
     user ||--o{ Activity : Creates
-        activity {
+        Activity {
         int ID
         varchar Name
         text Description
