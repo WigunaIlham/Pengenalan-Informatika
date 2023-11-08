@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+/* Sign page */
+.Sign-page {
+  width: 700px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.Sign-page h1 {
+  color: #111111;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Sign-page form {
+  width: 80%;
+  margin: auto;
+}
+
+.Sign-page label {
+  color: #111111;
+}
+
+.Sign-page button {
+  width: 150px;
+  height: 40px;
+  background-color: #9d9d9d;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Sign-page button:hover {
+  color: #fafafa;
+}
+
+.Sign-page .already {
+  text-align: center;
+  font-size: 12px;
+  color: #7d7a7a;
+}
+.Sign-page .havent {
+  font-size: 12px;
+  color: #7d7a7a;
+}
+
+.Sign-page p a {
+  text-decoration: none;
+}
+/* end */
+
+/* Section 1 */
+#section1 {
+  width: 100%;
+  height: auto;
+}
+.wave1 {
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+}
+#section1 nav {
+  width: 100%;
+  margin-top: 10px;
+}
+#section1 a img {
+  background: transparent;
+}
+#section1 ul,
+li,
+a {
+  background: transparent;
+}
+#section1 a {
+  color: #9d9d9d;
+  background: transparent;
+}
+#section1 .btn {
+  background-color: #9d9d9d;
+  font-weight: bold;
+  color: #ffffff;
+}
+#section1 p {
+  color: #c9c9c9;
+  font-size: 18px;
+  top: 270px;
+  margin-left: 100px;
+}
+#section1 h1 {
+  font-size: 82px;
+  font-weight: bold;
+  color: #c9c9c9;
+  top: 350px;
+  margin-left: 100px;
+}
+/* End */
+
+/* section 2 */
+#section2 {
+  background-color: #fef3e2;
+  position: relative;
+  top: -2px;
+  width: 100%;
+  height: auto;
+}
+.wave2 {
+  bottom: 0;
+}
+/* end */
+
+/* section 3 */
+#section3 {
+  width: 100%;
+  height: auto;
+}
+.wave3 {
+  bottom: 0;
+}
+/* end */
+
+/* section 4 */
+#section4 {
+  background-color: #f4ebdb;
+  width: 100%;
+  height: auto;
+}
+.wave4 {
+  bottom: 0;
+}
+/* end */
+
+/* section 5 */
+#section5 {
+  width: 100%;
+  height: auto;
+}
+.wave5 {
+  bottom: 0;
+}
+/* end */
+
+/* section 6 */
+#section6 {
+  background-color: #dac3b3;
+  position: relative;
+  top: -2px;
+  width: 100%;
+  height: auto;
+}
+.wave6 {
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+}
+/* end */
+
+#section2happy {
+  width: 100%;
+  height: auto;
+  background-color: #faaf08;
+}
