@@ -115,6 +115,8 @@ Wordpress: (https://innovatetechjourney.wordpress.com/2024/01/02/mencoba-pemrose
 
 ## Mencoba Web Tool AI Discriminative (Image Classification) [v] ⭐⭐⭐⭐
 
+Wordpress: (https://innovatetechjourney.wordpress.com/2024/01/03/mencoba-web-tool-ai-discriminative-image-classification/)
+
 ## Mencoba Web Tool AI Generative (Text to Image, Text to Text) [v] ⭐⭐⭐⭐
 
 Youtube: (https://youtu.be/H8S97bH5Lzk)
@@ -200,3 +202,5 @@ Wordpress: (https://innovatetechjourney.wordpress.com/2024/01/02/membangun-profi
 ## Mengikuti Workshop / Event / Course Terkait IT ⭐⭐⭐⭐
 
 ## Membaca dan Mengambil Inspirasi Dari Buku Bertema Informatika ⭐⭐⭐⭐⭐
+
+Wordpress: (https://innovatetechjourney.wordpress.com/2024/01/03/the-code-book-the-science-of-secrecy-from-ancient-egypt-to-quantum-cryptography/)
